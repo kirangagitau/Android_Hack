@@ -1,0 +1,12 @@
+download the android debug bridge from  https://www.xda-developers.com/install-adb-windows-macos-linux.
+
+How to set up ADB on Microsoft Windows
+Download the Android SDK Platform Tools ZIP file for Windows.
+Extract the contents of this ZIP file into an easily accessible folder (such as C:\platform-tools).
+Open File Explorer and browse to where you extracted the contents of this ZIP file.
+Open up a Command Prompt/Terminal instance from the same directory as this ADB binary. 
+This can be done by holding Shift and right-clicking within the folder and then clicking Open command window here or Open PowerShell window here. Windows 11 users should see Open in Terminal in the right-click context menu without even pressing the Shift button on the keyboard.
+Connect your smartphone or tablet to your computer with a USB cable. Change the USB mode to “file transfer (MTP)” mode. Some OEMs may or may not require this, but it's best to just leave it in this mode for general compatibility.
+In the Command Prompt/Terminal window, enter the following command to launch the ADB daemon: adb devices
+On your phone's screen, you should see a prompt to allow or deny USB Debugging access. Naturally, you will want to grant USB Debugging access when prompted (and tap the always allow check box if you never want to see that prompt again).
+Finally, re-enter the command from step 6. If everything was successful, you should now see your device's serial number in the command prompt (or the PowerShell window).
