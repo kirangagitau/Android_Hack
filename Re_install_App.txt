@@ -1,0 +1,2 @@
+#this is to install a package that had been previously uninstalled.
+pm install-existing NameOfPackage
