@@ -1,0 +1,2 @@
+pm uninstall -k --user 0 app_name
+# replace app_name witha actual app name.
